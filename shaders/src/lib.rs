@@ -4,8 +4,6 @@
     feature(register_attr),
     register_attr(spirv)
 )]
-// HACK(eddyb) can't easily see warnings otherwise from `spirv-builder` builds.
-#![deny(warnings)]
 
 #[cfg(not(target_arch = "spirv"))]
 use spirv_std::macros::spirv;
@@ -16,5 +14,3 @@ use spirv_std::glam::{vec4, Vec4};
 pub fn main_fs(output: &mut Vec4) {
     *output = vec4(1.0, 0.0, 0.0, 1.0);
 }
-
-
