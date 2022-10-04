@@ -41,9 +41,9 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.43"
+version = "1.0.46"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0a2ca2c61bc9f3d74d2886294ab7b9853abd9c1ad903a3ac7815c58989bb7bab"
+checksum = "94e2ef8dbfc347b10c094890f778ee2e36ca9bb4262e86dc99cd217e35f3470b"
 dependencies = [
  "unicode-ident",
 ]
@@ -66,9 +66,9 @@ dependencies = [
 
 [[package]]
 name = "spirv-std"
-version = "0.4.0-alpha.14"
+version = "0.4.0-alpha.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b930be88fd65df1c5f714a046fb964bc7c2858977c76d5c96d3c6348cb2daa09"
+checksum = "5299ad613ec84ddda7def401e4f62ab42f5a5f6695245a361d33b82e31e2a5a3"
 dependencies = [
  "bitflags",
  "glam",
@@ -79,9 +79,9 @@ dependencies = [
 
 [[package]]
 name = "spirv-std-macros"
-version = "0.4.0-alpha.14"
+version = "0.4.0-alpha.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6fb511d18631ef427dad91cab3c57bbb030014c84ee1a7d9c926159e44427fc8"
+checksum = "4e982995d49be4bd31f7796a353d4fa39edcb45c8dcbc2b42e7b2a9cccb24eaf"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -91,15 +91,15 @@ dependencies = [
 
 [[package]]
 name = "spirv-std-types"
-version = "0.4.0-alpha.14"
+version = "0.4.0-alpha.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9fe70867c6ea3de5df386f3aecf460198864b39685d98c00882d0b054c647add"
+checksum = "ebe8930b1572fcea37b73216fbb9dbd391281993407ca0fbcfe833225cfbac93"
 
 [[package]]
 name = "syn"
-version = "1.0.99"
+version = "1.0.101"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "58dbef6ec655055e20b86b15a8cc6d439cca19b667537ac6a1369572d151ab13"
+checksum = "e90cde112c4b9690b8cbe810cba9ddd8bc1d7472e2cae317b69e9438c1cba7d2"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -108,6 +108,6 @@ dependencies = [
 
 [[package]]
 name = "unicode-ident"
-version = "1.0.3"
+version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf"
+checksum = "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd"
