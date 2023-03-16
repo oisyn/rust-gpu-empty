@@ -1,12 +1,9 @@
 #![cfg_attr(
     target_arch = "spirv",
-    no_std,
-    feature(register_attr),
-    register_attr(spirv)
+    no_std
 )]
 
-#[cfg(not(target_arch = "spirv"))]
-use spirv_std::macros::spirv;
+use spirv_std::spirv;
 
 use spirv_std::glam::{vec4, Vec4};
 

@@ -8,4 +8,4 @@ edition = "2021"
 crate-type = ["dylib"]
 
 [dependencies]
-spirv-std = { version = "0.4.0-alpha", features = ["glam"] }
+spirv-std = "0.6.0"
